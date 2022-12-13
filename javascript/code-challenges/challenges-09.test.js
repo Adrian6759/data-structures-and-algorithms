@@ -40,7 +40,8 @@ Write a function named checkValues that takes in an object and a value and retur
 ------------------------------------------------------------------------------------------------ */
 
 const checkValues = (obj, value) => {
-  for (let value in Object)
+  let result = Object.values(obj);
+  return result.includes(value);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,7 +64,9 @@ HR has asked you to change the data to make it easier to print so that it looks 
 ------------------------------------------------------------------------------------------------ */
 
 const updateNumbers = (obj) => {
-  // Solution code here...
+  return Object.keys(obj).map(key => {
+    return `${key}: ${obj[key]}`;
+  });
 };
 
 
@@ -119,7 +122,11 @@ const characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  // Solution code here...
+  let props = Object.values(arr);
+  // console.log(props);
+  props.forEach(person => {
+    houses.push(person.house);
+  });
   return houses;
 };
 
@@ -136,7 +143,8 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
+  let result = Object.values(arr);
+  return result.includes(character);
 
 };
 
@@ -228,7 +236,7 @@ describe('Testing challenge 2', () => {
   });
 });
 
-xdescribe('Testing challenge 3', () => {
+describe('Testing challenge 3', () => {
   test('It should return true if the value is in the object', () => {
     expect(checkValues({ class: '301' }, '301')).toBe(true);
   });
@@ -238,7 +246,7 @@ xdescribe('Testing challenge 3', () => {
   });
 });
 
-xdescribe('Testing challenge 4', () => {
+describe('Testing challenge 4', () => {
   test('It should return an an array of names and numbers', () => {
     const startingObj = {
       'Grace Hopper': '222-303-5938',
@@ -250,7 +258,7 @@ xdescribe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should return an array of the names of the houses', () => {
     expect(getHouses(characters)[0]).toStrictEqual('Stark');
     expect(getHouses(characters).length).toStrictEqual(7);
@@ -258,7 +266,7 @@ xdescribe('Testing challenge 5', () => {
 });
 
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should return true for characters that have children', () => {
     expect(hasChildrenValues(characters, 'Daenarys')).toBeTruthy();
   });
