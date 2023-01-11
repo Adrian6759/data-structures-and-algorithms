@@ -3,4 +3,4 @@
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
-java/array-insert-shift/
+[Array-Insert-Shift](java/array-insert-shift/README.md)
