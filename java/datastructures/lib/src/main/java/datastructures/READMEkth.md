@@ -7,7 +7,7 @@ You have access to the Node class and all the properties on the Linked List clas
 
 ## Whiteboard Process
 
-![kth From End](./datastructures/lib/src/main/java/datastructures/linkedlist/kthValue.png)
+![kth From End](./linkedlist/kthValue.png)
 
 ## Approach & Efficiency
 

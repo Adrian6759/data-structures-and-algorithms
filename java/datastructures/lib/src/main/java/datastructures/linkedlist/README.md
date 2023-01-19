@@ -6,7 +6,7 @@ Add a new node with a given new value immediately after the first node that has 
 
 ## Whiteboard Process
 
-![Linked List Insertions](./datastructures/lib/src/main/java/datastructures/linkedlist/LinkedListInsertions.png)
+![Linked List Insertions](./LinkedListInsertions.png)
 
 ## Approach & Efficiency
 
