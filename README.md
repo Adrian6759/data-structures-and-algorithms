@@ -12,4 +12,4 @@
 
 1. [Linked List Insertions](java/datastructures/lib/src/main/java/datastructures/linkedlist/README.md)
 2. [kth From End](java/datastructures/lib/src/main/java/datastructures/READMEkth.md)
-3. [Linked List Zip](java/datastructures/lib/src/main/java/datastructures/linkedlist/READMELLZIP.md)
+3. [Linked List Zip](/java/datastructures/lib/src/main/java/datastructures/linkedlist/READMELLZIP.md)
