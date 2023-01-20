@@ -11,4 +11,4 @@ You have access to the Node class and all the properties on the Linked List clas
 
 ## Approach & Efficiency
 
-I attempted to finish the whiteboard and was unable to get it done. I did not getg to the coding portion.
+I attempted to finish the whiteboard and was unable to get it done. I did not get to the coding portion.
