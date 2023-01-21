@@ -37,9 +37,9 @@ public class LinkedList
 
   public void InsertAtEnd(int value, int newVal)
   {
-    head.next = new Node(value);
-while (curr.value = null)
-      head.next = new Node(value);
+//    head.next = new Node(value);
+//while (curr.value = null)
+//      head.next = new Node(value);
 
 }
 
