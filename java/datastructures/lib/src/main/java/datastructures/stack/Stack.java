@@ -35,4 +35,9 @@ public class Stack<T>
 
     return (top == null);
   }
+  @Override
+  public String toString(){
+
+    return "{" + 3 + "} ->{" + top.value + "} -> NULL";
+  }
 }
