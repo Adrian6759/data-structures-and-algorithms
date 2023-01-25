@@ -20,4 +20,5 @@ public class StackTest
     assertEquals("{3} ->{5} -> NULL", sut.toString());
   }
 
+
 }

@@ -2,6 +2,8 @@ package datastructures.queue;
 
 import datastructures.queue.Node;
 
+import java.io.InputStreamReader;
+
 public class Queue<T>
 {
   Node<T> front;
@@ -12,7 +14,7 @@ public class Queue<T>
 // INPUT <-- value to add to queue (will be wrapped in Node internally)
 // OUTPUT <-- none
     Node<T> node = new Node(valueToEnqueue);
-    back.next = node;
+    front = node;
     back = node;
   }
 
