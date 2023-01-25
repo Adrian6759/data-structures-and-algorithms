@@ -17,3 +17,5 @@
 ## Week Three
 
 1. [Psuedo Queue](java/datastructures/lib/src/main/java/codechallenges/linkedlist/psuedoQueue-README.md)
+2. [Animal Shelter Queue](java/datastructures/lib/src/main/java/codechallenges/linkedlist/stack-queue-animal-shelterREADME.md)
+
