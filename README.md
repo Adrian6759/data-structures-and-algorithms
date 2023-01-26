@@ -18,4 +18,4 @@
 
 1. [Psuedo Queue](java/datastructures/lib/src/main/java/codechallenges/linkedlist/psuedoQueue-README.md)
 2. [Animal Shelter Queue](java/datastructures/lib/src/main/java/codechallenges/linkedlist/stack-queue-animal-shelterREADME.md)
-
+3. [Stack Queue Brackets](java/datastructures/lib/src/main/java/codechallenges/linkedlist/stack-queue-bracketsREADME.md)
