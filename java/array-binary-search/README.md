@@ -4,9 +4,9 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process
 
-![image](./array-binary-search.png)
+![image](./array-binary-search-resubmit.png)
 
 ## Approach & Efficiency
 
-I tried to follow the guide to the best of my abilities. I identified the problem and visualized what needed to be done. I first wrote out how I would go about solving the problem. I have not wrote out any code to start solving the problem so I'm not wsure how efficent the solution would be.
+I tried to follow the guide to the best of my abilities. I identified the problem and visualized what needed to be done. I first wrote out how I would go about solving the problem. I have not wrote out any code to start solving the problem so I'm not sure how efficent the solution would be.
 
