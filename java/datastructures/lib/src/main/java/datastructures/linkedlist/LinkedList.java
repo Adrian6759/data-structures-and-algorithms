@@ -18,21 +18,30 @@ public class LinkedList
       temp.next = head;
       head = temp;
     }
-//head = new Node(value, head);
   }
-//  public boolean includes(int value)
-//  {
-//    while (curr != null){
-      // If logic
-//      curr = curr.next;
-//    }
-//    return false;  // TODO: implement me
-//  }
+  public boolean includes(int value)
+  { Node curr = head;
+    while (curr != null){
+//       If logic
+      if (curr.value = value){
+        return true;
+      }else{
+        curr = curr.next
+      }
+    }
+    return false;  // TODO: implement me
+  }
 
   @Override
   public String toString()
-  {
-    return "null";  // TODO: implement me
+  { Node curr = head;
+    String outputString = "";
+    while(curr != null){
+      outputString += "{"+curr.value+"}->";
+    }
+    outputString += "Null";
+    
+    return outputString;
   }
 
   public void InsertAtEnd(int value, int newVal)
