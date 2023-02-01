@@ -1,4 +1,4 @@
-[# Linked List Insertions
+# Tree-Max
 
 Write the following method for the Binary Tree class
 Find maximum value
@@ -7,9 +7,9 @@ Arguments: none
 Returns: number
 Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
-## Whiteboard Process
+g## Whiteboard Process
 
-![Linked List Insertions](./tree-max.png)
+![Tree-Max](./tree-max.png)
 
 ## Approach & Efficiency
 
