@@ -24,3 +24,4 @@
 ## Week Four
 1. [Tree Max](java/datastructures/lib/src/main/java/datastructures/trees/tree-maxREADME.md)
 2. [Breadth First](java/datastructures/lib/src/main/java/datastructures/trees/breadth-firstREADME.md)
+3. [Fizz Buzz](java/datastructures/lib/src/main/java/datastructures/trees/fizzbuzzREADME.md)
