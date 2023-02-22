@@ -28,3 +28,8 @@
 
 ## Week Six
 1. [Sorting Insertions](java/datastructures/lib/src/main/java/codechallenges/sorting/README.md)
+
+## Week Seven
+
+1. [HashMap Repeated Word](java/datastructures/lib/src/main/java/datastructures/hashmap/hashmapDupesREADME.md)
+2. [Tree Intersection](java/datastructures/lib/src/main/java/datastructures/TreeIntersection/tree-intersectionREADME.md)

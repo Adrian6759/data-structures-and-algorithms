@@ -1,4 +1,4 @@
-# Hashmap Repeated Word
+# Tree Intersection
 
 ## Problem Domain
 
@@ -9,10 +9,10 @@ Return: string
 
 ## Whiteboard Process
 
-![HashMap Repeated Word](./HashmapRepeatWord.png)
+![Tree Intersection](./TreeIntersection.png)
 
 ## Approach & Efficiency
-Attempted to split string into a grouping of strings so that we could target individual words. We would then increment every time we come across a word.
+Approach was to put values from one BST into a hash set and compare the values of another BST to the hash set.
 
 ## Collaboration
 Worked with Sharmarke, Ryan, and Devon.
