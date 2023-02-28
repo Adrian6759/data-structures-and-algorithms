@@ -30,6 +30,10 @@ public class Stack<T>
     return top.value;
   }
 
+  public boolean validate(){
+    return true;
+  }
+
   public boolean isEmpty()
   {
 

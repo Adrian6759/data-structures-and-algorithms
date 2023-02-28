@@ -1,5 +1,6 @@
 package datastructures.trees;
 
+
 import datastructures.trees.Node;
 
 public class BinarySearchTree<T extends Comparable<? super T>> extends BinaryTree<T>

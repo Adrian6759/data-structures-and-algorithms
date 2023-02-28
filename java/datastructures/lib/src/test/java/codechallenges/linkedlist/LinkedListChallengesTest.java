@@ -1,8 +1,9 @@
 package codechallenges.linkedlist;
 
+import datastructures.linkedlist.LinkedList;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListChallengesTest
 {
@@ -20,7 +21,7 @@ public class LinkedListChallengesTest
     sut.insert(2);
     sut.insert(3);
     sut.append(5);
-    assertEquals("{3} -> {2} -> {1} -> {5} -> NULL", sut.toString())
+    assertEquals("{3} -> {2} -> {1} -> {5} -> NULL", sut.toString());
 
   }
   @Test void testInsertBefore(){
@@ -29,7 +30,7 @@ public class LinkedListChallengesTest
     sut.insert(2);
     sut.insert(4);
     sut.insertBefore(4, 3);
-    assertEquals("{3} -> {4} -> {2} -> {1} -> NULL", sut.toString())
+    assertEquals("{3} -> {4} -> {2} -> {1} -> NULL", sut.toString());
 
   }
   @Test void testInsertAfter(){
@@ -38,7 +39,7 @@ public class LinkedListChallengesTest
     sut.insert(2);
     sut.insert(4);
     sut.insertAfter(4, 3);
-    assertEquals("{4} -> {3} -> {2} -> {1} -> NULL", sut.toString())
+    assertEquals("{4} -> {3} -> {2} -> {1} -> NULL", sut.toString());
 
   }
 }
