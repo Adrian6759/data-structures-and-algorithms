@@ -1,20 +1,25 @@
 package datastructures.hashmap;
 
-  Public String repeatedWord(String str){
-    String key[]=str.split;
-    HashMap<String, Integer> wordsMap=new HashMap<String, Integer>();
-    for(int=0;i<token.length;i++){
-      if(wordsMap.containsKey(token[i]))
-      wordsMap.put(token[i],wordsMap.get(token[i])+1);
-      else{
-     wordsMap.put(token[i]+1);
-      }
-      for(int i=0;i<token.length;i++){
-      int count=wordsMap.get(token[i]);
-      if(count>1){
-      return token[i];
-      }
+  public class hashmapDupes {
+    public String repeatedWord(String str) {
+      String[] key = str.split(" ");
+      HashMap<String, Integer> wordsMap = new HashMap<String, Integer>(key.length);
+      for (int i=0; i < key.length; i++){
+        if (wordsMap.contains(key[i])) {
+          wordsMap.set(key[i], wordsMap.get(key[i]) + 1);
 
+        }else {
+          wordsMap.set(key[i], + 1);
+        }
+//        for (int j = 0; i < key.length; i++) {
+//          int count = wordsMap.get(key[i]);
+//          if (count > 1) {
+//            return key[i];
+//          }
+
+        }
+      
+        return "No repeated words";
     }
-    return"No repeated words"
   }
+

@@ -36,7 +36,7 @@ public class HashMap<K, V> {
     return null;
   }
 
-  public boolean contains(){
+  public boolean contains(K key){
     // TODO: implement me
     return false;
   }

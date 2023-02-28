@@ -23,10 +23,10 @@ public class LinkedList {
     Node curr = head;
     while (curr != null) {
 //       If logic
-      if (curr.value = value) {
+      if (curr.value == value) {
         return true;
       } else {
-        curr = curr.next
+        curr = curr.next;
       }
     }
     return false;  // TODO: implement me
@@ -49,9 +49,9 @@ public class LinkedList {
     Node newNode = new Node(value);
     if (head != null) {
       Node temp;
-      temp = head
+      temp = head;
       while (temp.next != null) {
-        temp = temp.next
+        temp = temp.next;
       }
       temp.next = newNode;
     } else {
