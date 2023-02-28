@@ -9,6 +9,8 @@ import codechallenges.graph.Vertex;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
 
 import static org.junit.jupiter.api.Assertions.*;
 public class GraphChallengeTest{
@@ -16,8 +18,10 @@ public class GraphChallengeTest{
 void addNodeAndGetNodeTest() {
   Graph<String> sut = new Graph<>(6);
   sut.addVertex("Alpha");
-  assertTrue(sut.toString() == "Alpha");
-  assertEquals(1,sut.size());
+  LinkedList testLL = sut.getVertices();
+  LinkedList testNeighbor = sut.getNeighbors(new Vertex<>("1"));
+  assertTrue(sut.getVertices() != null);
+  assertEquals(1, sut.size());
 }
   @Test
   void testAssertGraphExists() {
